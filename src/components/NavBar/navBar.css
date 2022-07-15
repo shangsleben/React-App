@@ -1,0 +1,32 @@
+ .nav {
+   background-color: #1F305E;
+   overflow: hidden;
+   font-family: arial, sans-serif;
+   height: 50px;
+ }
+
+ .rightnav a {
+   float: right;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: left;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ .topnav a.active {
+   text-decoration: underline;
+   text-decoration-color: grey;
+   text-decoration-thickness: 3px;
+
+ }
